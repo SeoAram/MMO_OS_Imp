@@ -45,13 +45,13 @@
   <PropertyGroup Label="UserMacros" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
     <LinkIncremental>true</LinkIncremental>
-    <IncludePath>C:\Users\aram\Documents\kpu\16년_졸업작품\MMO_OS_Imp\code\boost_1_59_0;$(IncludePath)</IncludePath>
-    <LibraryPath>C:\Users\aram\Documents\kpu\16년_졸업작품\MMO_OS_Imp\code\boost_1_59_0\stage\lib;$(LibraryPath)</LibraryPath>
+    <IncludePath>C:\boost_1_59_0;$(IncludePath)</IncludePath>
+    <LibraryPath>C:\boost_1_59_0\stage\lib;$(LibraryPath)</LibraryPath>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
     <LinkIncremental>false</LinkIncremental>
-    <IncludePath>C:\Users\aram\Documents\kpu\16년_졸업작품\MMO_OS_Imp\code\boost_1_59_0;$(IncludePath)</IncludePath>
-    <LibraryPath>C:\Users\aram\Documents\kpu\16년_졸업작품\MMO_OS_Imp\code\boost_1_59_0\stage\lib;$(LibraryPath)</LibraryPath>
+    <IncludePath>C:\boost_1_59_0;$(IncludePath)</IncludePath>
+    <LibraryPath>C:\boost_1_59_0\stage\lib;$(LibraryPath)</LibraryPath>
   </PropertyGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
     <ClCompile>
